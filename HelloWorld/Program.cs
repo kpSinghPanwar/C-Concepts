@@ -6,7 +6,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World from C#");
+            int a = 1;
+            int b = ++a;
+            Console.WriteLine("{0} {1}",a,b);
+
         }
     }
 }
